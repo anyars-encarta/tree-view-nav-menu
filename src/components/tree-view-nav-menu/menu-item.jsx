@@ -12,8 +12,6 @@ const MenuItem = ({item}) => {
       });
     }
 
-    console.log(displayCurrentChildren);
-
   return <li>
     <div className="menu-item">
       <p>{item.label}</p>
