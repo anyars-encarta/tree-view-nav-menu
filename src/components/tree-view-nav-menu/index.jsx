@@ -1,5 +1,9 @@
-const TreeViewNavMenu = () => {
-    return <div>This is my Tree-view Nav Menu Component</div>
+import MenuList from "./menu-list";
+
+const TreeViewNavMenu = ({menus = []}) => {
+    return <div className="tree-view-container">
+        <MenuList list={menus} />
+    </div>
 };
 
 export default TreeViewNavMenu;

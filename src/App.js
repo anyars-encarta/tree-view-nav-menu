@@ -1,10 +1,11 @@
 import TreeViewNavMenu from './components/tree-view-nav-menu/index';
-import './App.css';
+import { menus } from './components/tree-view-nav-menu/data';
+import './components/tree-view-nav-menu/styles.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <TreeViewNavMenu />
+    <div className="menu-list-container">
+      <TreeViewNavMenu menus={menus} />
     </div>
   );
 }
