@@ -9,11 +9,17 @@
     align-items: center;
     gap: 20px;
     cursor: pointer;
-    color: #fff
+    color: #fff;
+    font-size: 20px;
 }
 
 .menu-list-container {
     list-style: none;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.toggle-icons {
+    color: #fff;
+    font-size: 13px;
 }
