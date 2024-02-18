@@ -39,7 +39,7 @@
 <!-- INTRO -->
 # 📖 Encarta Image Slider<a name="about-project"></a>
 
-> Tree View Menu is an interactive app with a tree-view side menu. Menu items with children have **+** icons beside them that reveal their children when clicked.
+> Tree View Menu is an interactive app with a tree-view side menu. Menu items with children have **+** icons beside them that reveal their children when clicked. This tree-view project could be integrated into any app that requires similar functionality.
 
 ## 🛠 Built With <a name="built-with"></a>
 1. React
